@@ -1,5 +1,5 @@
 Logical: Asutus
-Id: asutus
+Id: Asutus
 Title: "Asutus"
 Description: "Asutuse andmekoosseis."
 

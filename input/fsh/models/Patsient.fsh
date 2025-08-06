@@ -1,5 +1,5 @@
 Logical: Patsient
-Id: patsient
+Id: Patsient
 Title: "Patsient"
 Description: "Patsiendi andmekoosseis."
 
