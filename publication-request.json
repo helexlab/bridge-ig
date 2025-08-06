@@ -1,0 +1,14 @@
+{
+  "package-id" : "org.helex.health-bridge",
+  "title" : "Health care coordination", 
+  "category" : "base",
+  "introduction" : "SMART Reference Architecture",
+  "version" : "0.0.1",
+  "desc" : "0.0.1 draft release",
+  "mode" : "milestone",    
+  "path" : "http://ig.helex.org/health-bridge/ra/v0.0.1",
+  "ci-build": "http://helexlab.github.io/health-bridge",    
+  "first": true,
+  "status" : "draft",
+  "sequence" : "Releases"
+}
