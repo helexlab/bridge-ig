@@ -10,10 +10,10 @@
 
 # Care Coordination Architecture
 
-CI-Build: https://helexlab.github.io/bridge/
+CI-Build: https://build.fhir.org/ig/helexlab/bridge-ig
 
 ## Changes and feedback
 
-Feedback and issues about this empty framework can be submitted via the [issues](issues) page, and will be incorporated into subsequent releases.
+Feedback and issues about this empty framework can be submitted via the [issues](/https://github.com/helexlab/bridge-ig/issues) page, and will be incorporated into subsequent releases.
 
 The Askend development team is currently responsible for the changes.
