@@ -1,8 +1,8 @@
-id: org.helex.health-bridge
-canonical: http://helex.org/ig/health-bridge
-name: HealthBridge
-title: Health Bridge
-description: The Health Bridge Implementation Guide to be used as a starting point for building infrastructure with the Care Coordination project
+id: org.helex.ccm
+canonical: http://helex.org/ig/ccm
+name: CCM
+title: Care Coordination Management
+description: Hoolduskoordinatsioon (Care Coordination Management) on lähenemine, mille eesmärk on integreerida sotsiaal- ja tervishoiuteenused, et abivajaja saaks õigel ajal sobivat abi.
 status: draft # draft | active | retired | unknown
 experimental: true
 version: 0.0.1
@@ -76,11 +76,11 @@ pages:
     references.md:
       title: References
     adapting.md:
-      title: Adapting Guidelines for Country use
+      title: Adapting Guidelines for Hospitals
     license.md:
       title: License
     governance.md:
-      title: Governance and Operational Framework for the DPI-H Reference Architecture Technical Working Group (TWG)
+      title: Governance and Operational Framework
     architects_guide.md:
       title: Architect's Guide
     scoping.md:
@@ -149,7 +149,7 @@ menu:
     Changes: changes.html
     Dependencies: dependencies.html
     References: references.html
-    Adapting Guidelines for Country use: adapting.html
+    Adapting Guidelines: adapting.html
     Governance and Operational Framework: governance.html
     Architect's Guide: architects_guide.html
     Scope: scoping.html
