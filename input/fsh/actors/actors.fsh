@@ -44,37 +44,37 @@ Usage: #definition
 
 
 
-Instance: SharedHealthRecord
-InstanceOf: ActorDefinition
-Usage: #definition
-* name = "Shared Health Record"
-* title = "Shared Health Record"
-* description = "A centralized repository that stores and manages longitudinal patient health records, enabling access to clinical data across systems."
-* status = #active
-* experimental = false
-* publisher = "OpenHIE"
-* type = #system
+// Instance: SharedHealthRecord
+// InstanceOf: ActorDefinition
+// Usage: #definition
+// * name = "Shared Health Record"
+// * title = "Shared Health Record"
+// * description = "A centralized repository that stores and manages longitudinal patient health records, enabling access to clinical data across systems."
+// * status = #active
+// * experimental = false
+// * publisher = "OpenHIE"
+// * type = #system
 
 
 
-Instance: InteroperabilityLayer
-InstanceOf: ActorDefinition
-Usage: #definition
-* name = "Interoperability Layer"
-* title = "Interoperability Layer"
-* description = """A component that enables communication of services across domains and organizations, This MMAY include:  
- - Service discovery and identification  
- - Service identity life cycle management  
- - Encryption of service to service communications  
- - Authentication, authorization and permissions at the service level (not application or user level)  
- - Service monitoring and transaction logging  
+// Instance: InteroperabilityLayer
+// InstanceOf: ActorDefinition
+// Usage: #definition
+// * name = "Interoperability Layer"
+// * title = "Interoperability Layer"
+// * description = """A component that enables communication of services across domains and organizations, This MMAY include:  
+//  - Service discovery and identification  
+//  - Service identity life cycle management  
+//  - Encryption of service to service communications  
+//  - Authentication, authorization and permissions at the service level (not application or user level)  
+//  - Service monitoring and transaction logging  
   
-Depending on the governance requirements, this layer may also include tools to centralize service logic including message routing, workflow and service orchestration, and message translation.
-"""
-* status = #active
-* experimental = false
-* publisher = "smart-ra"
-* type = #system
+// Depending on the governance requirements, this layer may also include tools to centralize service logic including message routing, workflow and service orchestration, and message translation.
+// """
+// * status = #active
+// * experimental = false
+// * publisher = "smart-ra"
+// * type = #system
 
 
 
@@ -91,16 +91,16 @@ Usage: #definition
 
 
 
-Instance: LogisticsManagementInformationSystem
-InstanceOf: ActorDefinition
-Usage: #definition
-* name = "Logistics Management Information System"
-* title = "Logistics Management Information System"
-* description = "A system that manages the supply chain operations, including tracking and distribution of health commodities."
-* status = #active
-* experimental = false
-* publisher = "OpenHIE"
-* type = #system
+// Instance: LogisticsManagementInformationSystem
+// InstanceOf: ActorDefinition
+// Usage: #definition
+// * name = "Logistics Management Information System"
+// * title = "Logistics Management Information System"
+// * description = "A system that manages the supply chain operations, including tracking and distribution of health commodities."
+// * status = #active
+// * experimental = false
+// * publisher = "OpenHIE"
+// * type = #system
 
 
 
@@ -119,16 +119,16 @@ Usage: #definition
 
 
 
-Instance: PointOfServiceSystem
-InstanceOf: ActorDefinition
-Usage: #definition
-* name = "Point-of-Service System"
-* title = "Point-of-Service System"
-* description = "A system used at the point of care, such as electronic medical records (EMRs), to capture and manage patient encounters and clinical data."
-* status = #active
-* experimental = false
-* publisher = "OpenHIE"
-* type = #system
+// Instance: PointOfServiceSystem
+// InstanceOf: ActorDefinition
+// Usage: #definition
+// * name = "Point-of-Service System"
+// * title = "Point-of-Service System"
+// * description = "A system used at the point of care, such as electronic medical records (EMRs), to capture and manage patient encounters and clinical data."
+// * status = #active
+// * experimental = false
+// * publisher = "OpenHIE"
+// * type = #system
 
 
 

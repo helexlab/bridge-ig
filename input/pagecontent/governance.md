@@ -1,305 +1,283 @@
-### OVERVIEW
-The Technical Working Group (TWG) is established to support the development of a comprehensive reference architecture describing health-specific Digital Public Infrastructure (DPI-H), and foundational DPI (DPI-F) for health sector goals. 
+## OVERVIEW
 
-#### Objectives of the Project
-- Develop detailed technical specifications and implementation guidance (IG) for DPI-H services that interface with DPI-F services 
-- Ensure architectural coherence and interoperability across all components 
-- Ensure architecture supports effective implementation of WHO SMART Guidelines 
-- Create narrative guidance and document best practices 
-- Deliver high-quality, evidence-based technical documentation 
+The Technical Working Group (TWG) is established to support the development of a comprehensive reference architecture describing health-specific Digital Public Infrastructure (DPI-H), and foundational DPI (DPI-F) for health sector goals.
 
-#### Purpose of this document
-To guide TWG members on the modus operandi for the coordinated design, development and documentation of a standards-aligned, scalable, and context-relevant reference architecture for Digital Public Infrastructure for Health (DPI-H). The framework hereby presented provides the foundation for effective collaboration while maintaining the flexibility needed for technical innovation and adaptation to evolving requirements. 
+### Objectives of the Project
 
-### OPERATIONAL STRUCTURE
+- Develop detailed technical specifications and implementation guidance (IG) for DPI-H services that interface with DPI-F services
+- Ensure architectural coherence and interoperability across all components
+- Ensure architecture supports effective implementation of TEHIK Implementation Guides and WHO SMART Guidelines
+- Create narrative guidance and document best practices
+- Deliver high-quality, evidence-based technical documentation
 
-#### Project Lead (Provided by WHO)
-**Role and Responsibilities**
+### Purpose of this document
+
+To guide TWG members on the modus operandi for the coordinated design, development and documentation of a standards-aligned, scalable, and context-relevant reference architecture for Digital Public Infrastructure for Health (DPI-H). The framework hereby presented provides the foundation for effective collaboration while maintaining the flexibility needed for technical innovation and adaptation to evolving requirements.
+
+## OPERATIONAL STRUCTURE
+
+### Project Lead
+
+- [Helen Linn](helen.linn@askend.com)
+
+### Role and Responsibilities
+
 - Coordinate timelines, milestones, and inter-group collaboration.
-- Approves major deliverables and milestone completions 
+- Approves major deliverables and milestone completions
 - Facilitates cross-domain coordination, alignment and issue resolution  
-- Facilitates coordination between chief architect, core architects, domain co-chairs and the broader TWG. 
-- Facilitates liaison with the Steering committee 
+- Facilitates coordination between chief architect, core architects, domain co-chairs and the broader TWG.
+- Facilitates liaison with the Steering committee
 - Coordinates and oversees the development of the normative guidance
 
-#### Chief Architect (WHO Staff)
-**Role and Responsibilities:** 
+### Solution Architect
 
--   Provides overall technical leadership and guidance 
--   Approves design principles, architecture patterns, and domain outputs 
--   Approves domain-specific deliverables 
--   Ensures architectural coherence across all TWG domains 
--   Validates alignment with global standards and country use cases 
--   Will make final technical decisions when consensus cannot be reached 
-    
+- [Igor Bossenko](igor.bossenko@askend.com)
 
-#### Core Architects (Application through public notice)
-**Role and Responsibilities:** 
+#### Role and Responsibilities
 
--   Work closely with the Chief Architect to design the reference enterprise architecture and ensure consistency across architectural domains  
--   Articulate cross-cutting architectural principles and standards for the reference architecture 
--   Ensure cross-domain harmonization and alignment with global open standards 
--   Support domain groups in aligning specifications to the overarching architecture 
--   Review domain-specific deliverables 
-    
+- Provides overall technical leadership and guidance
+- Approves design principles, architecture patterns, and domain outputs
+- Approves domain-specific deliverables
+- Ensures architectural coherence across all TWG domains
+- Validates alignment with global standards and country use cases
+- Will make final technical decisions when consensus cannot be reached
 
-#### Domain Experts Groups (Application through public notice)
+### Domain Experts Group
 
-At least one representative from the Core Architects 
+- [Aneli Taal](anneli.taal@sm.ee)
+- [Julia Keedus](julia.kedus@ivkh.ee)
+- [Olga Pihlak](olga.pihlak@ivol.ee)
+- [Dmitri Kislitsin](Dmitri.Kislitsin@ivkh.ee)
 
-**Role and Responsibilities:** 
+#### Role and Responsibilities
 
--   Lead technical development of documentation within their assigned domain 
--   Coordinate domain expert activities and deliverables 
--   Ensure quality and consistency of domain outputs 
--   Report progress and issues to Chief Architect 
--   Participate in cross-domain alignment meetings 
--   Ensure outputs align with the overall reference architecture 
--   Contribute specialized subject matter technical expertise to the development of specific services 
--   Provide input on cross-domain dependencies and interfaces 
--   Review outputs from other domains as requested 
--   Support testing and validation activities 
--   Outline integration and implementation considerations/ methodologies for assigned domains 
-    
+- Lead technical development of documentation within their assigned domain
+- Coordinate domain expert activities and deliverables
+- Ensure quality and consistency of domain outputs
+- Report progress and issues to Chief Architect
+- Participate in cross-domain alignment meetings
+- Ensure outputs align with the overall reference architecture
+- Contribute specialized subject matter technical expertise to the developmentof specific services
+- Provide input on cross-domain dependencies and interfaces
+- Review outputs from other domains as requested
+- Support testing and validation activities
+- Outline integration and implementation considerations/ methodologies for assigned domains
 
-#### Reviewers & Domain Communities of Practice (Application through public notice, Expert invitation, or via existing CoPs)
+### Reviewers & Domain Communities of Practice
+Application through public notice, Expert invitation, or via existing CoPs)
 
-**Role and Responsibilities:** 
+#### Role and Responsibilities
 
--   Informs the Domain Experts Group on business requirements  
--   Not contributing directly to development of artifacts 
--   Review and validate technical specifications and documentation 
--   Identify gaps, overlaps, and interdependencies. 
--   Share country and implementation experiences 
-    
+- Informs the Domain Experts Group on business requirements
+- Not contributing directly to development of artifacts
+- Review and validate technical specifications and documentation
+- Identify gaps, overlaps, and interdependencies.
+- Share country and implementation experiences
 
-### DOMAIN STRUCTURE
+## GOVERNANCE PROCESSES
 
-#### Proposed Domain Groups
-<ol>
- <li> <b>Trust Services Domain </b></li>
-<ul><li>Domain group is the GDHCN SAG</li></ul>
-<i>COP established for Personal Health Wallet</i>
+### Decision-Making Framework
 
+*Consensus-Based Approach:*
 
-<li> <b>Metadata Registries Domain</b> </li>
-<ul>
-    <li> Terminology Services </li>
-    <li> Client Registry </li>
-    <li>Health facility registry </li>
-    <li>Product catalogue </li>   
-    <li>Health workforce registry </li>
-</ul>
-<i>No COP currently identified</i>
+- Domain-level decisions made through expert consensus
+- Cross-domain issues escalated to domain co-chairs and core architects’ forum
+- Chief Architect makes final decisions when consensus not possible
+- Documented rationale for all major technical decisions
 
+**Decision Categories:**
 
-<li><b>Clinical Services Domain</b> (incl. Patient records and Clinical Workflows) </li>
-<ul>
-   <li>Support for SMART Guidelines (Clinical Decision Support Services) </li> 
-   <li>National Electronic Health Records/ Shared Health Records </li>
-   <li> Point of Service EMRs </li>
-   <li>Laboratory Information Management Services</li> 
-</ul> 
-<i>No comprehensive COP currently identified (one exists for SMART Guidelines specific areas)</i>
+- **Level 1 (Domain):** Component specifications, implementation details
+- **Level 2 (Cross-Domain):** Interface definitions, shared standards
+- **Level 3 (Architecture):** Overall design principles, major architectural decisions
 
+### Coordination mechanisms
 
-<li><b>Health Supply Chain Domain</b></li>
-<ul>
-  <li>Product Master Data</li>
-  <li>Traceability</li>
-</ul> 
-<i>COP is the DHSC SWG</i>
+#### Cross-Domain Alignment
 
-<li><b>Financial Systems in Health Domain </b></li>
-<ul>
-    <li>Health finance-related information services</li>  
-    <li>Health insurance/social protection</li>    
-    <li>Financial analysis</li>
-    <li>Campaign payments </li>
-</ul>
-<i>No COP currently identified</i>
-</ol>
+- Interoperability coordination: Interface design sessions between dependent domains
 
-### GOVERNANCE PROCESSES
-#### Decision-Making Framework
-<b>Consensus-Based Approach:</b>
-- Domain-level decisions made through expert consensus 
-- Cross-domain issues escalated to domain co-chairs and core architects’ forum 
-- Chief Architect makes final decisions when consensus not possible 
-- Documented rationale for all major technical decisions 
+#### Standards Harmonization
 
-<b>Decision Categories:</b>
-- **Level 1 (Domain):** Component specifications, implementation details 
-- **Level 2 (Cross-Domain):** Interface definitions, shared standards 
-- **Level 3 (Architecture):** Overall design principles, major architectural decisions 
-
-#### Coordination mechanisms
-<b>Cross-Domain Alignment</b>
-- Interoperability coordination: Interface design sessions between dependent domains 
-<b>Standards Harmonization:</b>
-- Consistent application of architectural principles 
-- Shared terminology and data definitions 
+- Consistent application of architectural principles
+- Shared terminology and data definitions
 - Common security and privacy frameworks
-<b>Dependency Management</b>
-- Dependency mapping between components 
-- Regular dependency review and validation 
-<b>Conflict Resolution: </b>
-- Escalation procedures for technical disagreements 
-- Mediation through Chief Architect when needed 
--  Documented resolution and rationale 
 
-#### Quality Assurance
-<b>Peer Review Process: </b>
-<ul>
-    <li>All deliverables undergo peer review within domain </li>
-    <li>Cross-domain review for components with external dependencies</li>
-    <li>Chief Architect final review for architecture-level impacts</li>
-    <li>External expert review for validation </li>
-</ul>
+#### Dependency Management
 
-#### Change Management
-<b>Change Request Process:</b>
-<ol>
-    <li>Create Issue on GitHub and/or submit pull request via GitHub </li>
-    <li>Domain co-chair initial assessment </li>
-    <li>Domain Group review </li>
-    <li>Cross-domain impact evaluation (if applicable) </li>
-    <li>Chief Architect approval for significant changes </li>
-    <li>Implementation and communication of approved changes</li>
-</ol> 
+- Dependency mapping between components
+- Regular dependency review and validation
 
-### OPERATIONAL PROCEDURES
-#### Meeting Structure
-##### Chief Architect & Core Architects
-- Frequency: Monthly 
+#### Conflict Resolution
+
+- Escalation procedures for technical disagreements
+- Mediation through Chief Architect when needed
+- Documented resolution and rationale
+
+### Quality Assurance
+
+Peer Review Process:
+
+- All deliverables undergo peer review within domain
+- Cross-domain review for components with external dependencies
+- Chief Architect final review for architecture-level impacts
+- External expert review for validation
+
+### Change Management
+
+Change Request Process:
+
+- Create Issue on GitHub and/or submit pull request via GitHub
+- Domain co-chair initial assessment
+- Domain Group review
+- Cross-domain impact evaluation (if applicable)
+- Chief Architect approval for significant changes
+- Implementation and communication of approved changes
+
+## OPERATIONAL PROCEDURES
+
+### Meeting Structure
+
+#### Technical workgroup
+
+- Frequency: Monthly
 - Duration: 60-90 minutes  
-- Purpose: Review architecture design 
-##### Chief Architect, Core Architects and Domain Co-chairs Meeting
-- Frequency: Monthly or as needed 
-- Duration: 90 minutes 
-- Purpose: Strategic alignment, domain updates, issue resolution, progress review 
-##### Domain Group Meetings
-- Frequency: Monthly or as needed 
-- Duration: 60-90 minutes 
-- Purpose: Technical development, expert collaboration 
-##### All-Hands TWG 
-- Frequency: Monthly 
-- Duration: 2 hours 
-- Purpose: Cross-domain updates, major announcements, collective decisions 
-##### Ad-Hoc Coordination Meetings
-- Called as needed for urgent issues or cross-domain coordination 
+- Purpose: Review architecture design
 
-#### Communication Protocols
-**Reporting Structure:** 
--   TWG → Chief Architect & Project Lead → Steering Committee 
--   Quarterly Steering Committee briefings 
-    
+#### Chief Architect and Domain Experts
 
-**TWG Communication Channels:** 
-- Primary: Dedicated collaboration platform (TBD) 
-- Documentation: Shared repository (GitHub) 
+- Frequency: Monthly or as needed
+- Duration: 90 minutes
+- Purpose: Strategic alignment, domain updates, issue resolution, progress review
+
+#### Domain Group Meetings
+
+- Frequency: Weekly or as needed
+- Duration: 60-90 minutes
+- Purpose: Technical development, expert collaboration
+
+#### All-Hands TWG
+
+- Frequency: Weekly
+- Duration: 2 hours
+- Purpose: Cross-domain updates, major announcements, collective decisions
+
+#### Ad-Hoc Coordination Meetings
+
+- Called as needed for urgent issues or cross-domain coordination
+
+### Communication Protocols
+
+**Reporting Structure:**
+
+- TWG → Chief Architect & Project Lead → Steering Committee
+- Quarterly Steering Committee briefings
+
+**TWG Communication Channels:**
+
+- Primary: Dedicated collaboration platform (TBD)
+- Documentation: Shared repository (GitHub)
 - Formal communications: Email with defined subject line conventions
 
-#### Documentation Standards
--  All outputs must follow a consistent documentation template ([https://smart.who.int/ig-starter-kit/](https://smart.who.int/ig-starter-kit/) ). 
--  Deliverables stored in shared repository (GitHub). 
--  A changelog maintained for version control. 
-    
+### Documentation Standards
 
-**Required Documentation:** 
--   Full narrative guidance that links to the technical specifications and IGs 
--   Technical specifications with clear acceptance criteria 
--   Implementation guidance and methodologies 
--   Testing and validation procedures 
-    
+- All outputs must follow a consistent documentation template ([https://smart.who.int/ig-starter-kit/](https://smart.who.int/ig-starter-kit/) ).
+- Deliverables stored in shared repository (GitHub).
+- A changelog maintained for version control.
+- Technical and business documentation should be publically available.
 
-**Documentation Review Cycle:** 
--   Initial draft → Peer review → Domain co-chair review → Cross-domain review → Chief Architect approval
+**Required Documentation:**
 
-### INDICATIVE WORKFLOW AND DELIVERABLES 
-#### **Development Lifecycle** (indicative timelines, which may differ according to domain) 
-**Phase 1: Requirements and Design (Weeks 1-4)** 
+- Full narrative guidance that links to the technical specifications and IGs
+- Technical specifications with clear acceptance criteria
+- Implementation guidance and methodologies
+- Testing and validation procedures
 
--   Requirements gathering and articulation: requirements definition across business, functional and technology layers 
--   High-level design and alignment with health-sector goals 
--   Dependency analysis 
-    
+**Documentation Review Cycle:**
 
-**Phase 2: Detailed Development (Weeks 5-16)** 
+- Initial draft → Peer review → Expert group review → Cross-domain review → Chief Architect approval
 
--   Detailed technical specifications    
--   Implementation guidance and example use-cases 
--   Testing procedures and validation criteria 
--   Integration requirements 
-    
+## INDICATIVE WORKFLOW AND DELIVERABLES
 
-**Phase 3: Review and Validation (Weeks 17-24)** 
+### **Development Lifecycle** (indicative timelines, which may differ according to domain)
 
--   Internal peer review and refinement 
--   Cross-domain alignment verification    
--   External expert review 
-    
+#### Phase 1: Requirements and Design (Weeks 1-3)
 
-**Phase 4: Testing and Finalization (Weeks 25-40)** 
+- Requirements gathering and articulation: requirements definition across business, functional and technology layers
+- High-level design and alignment with health-sector goals
+- Dependency analysis
+- Integration requirements
+- High-level architectural documentation
+- PoC application with very limited functionality
 
--   Refinement following external review 
--   Final draft documentation preparation 
--   Pilot testing where applicable 
--   Lessons learned documentation 
--   Internal review of documentation 
--   External expert review of documentation 
--   Final documentation preparation
+#### Phase 2: Detailed Development (Weeks 4-14)
 
-#### Key Deliverables
+- Detailed business requirements and use-cases
+- Detailed technical specifications
+- Implementation guidance and example use-cases
+- Testing procedures and validation criteria
 
-**Normative Guidance document** 
+#### Phase 3: Review and Validation (Weeks 10-16)
 
--  Narrative guidance detailing:   
-    -  Enterprise-level reference architecture diagram and narrative 
-    -  Standards and interoperability guidelines 
-    -  Security and privacy guidelines
-    -  Testing frameworks and validation tools
-    -  Migration and integration procedures 
-    -  Country use-cases 
-    
+- Internal peer review and refinement
+- Cross-domain alignment verification
+- External expert review
 
-**Technical Specifications & Implementation Guidance:** 
+#### Phase 4: Testing and Finalization (Weeks 15-16)
 
--   Component architecture documents
--   Domain-specific specifications for business, functional and technology layers 
--   API specifications and implementation guides 
--   Data models and schema definitions
+- Refinement following external review
+- Final draft documentation preparation
+- Pilot testing where applicable
+- Internal review of documentation
+- External expert review of documentation
+- Final documentation preparation
+
+### Key Deliverables
+
+#### Technical Specifications & Implementation Guidance
+
+- Component architecture documents
+- Domain-specific specifications for business, functional and technology layers
+- API specifications and implementation guides
+- Data models and schema definitions
+
+#### Care Coordination Management System
+
+- Informational system according to the business requirements and architecture
 
 ### RISK MANAGEMENT
-#### Identified Risks and Mitigation Strategies
-**Technical Risks:** 
 
--   Architecture inconsistencies → Regular alignment meetings     
--   Technology changes → Flexible design principles 
--   Integration complexities → Early interface definitions; Core Architects review and resolution 
-    
+### Identified Risks and Mitigation Strategies
 
-**Operational Risks:** 
+#### Technical Risks
 
--   Expert availability → Asynchronous collaboration methods     
--   Communication gaps → Structured reporting protocols 
--   Scope creep → Clear change management procedures
+- Architecture inconsistencies → Regular alignment meetings
+- Technology changes → Flexible design principles
+- Integration complexities → Early interface definitions; Core Architects review and resolution
 
-#### Escalation Procedures 
-- Domain level → Domain co-chair intervention 
-- Cross-domain → Chief Architect mediation 
-- Strategic → Escalation to Steering Committee 
+#### Operational Risks
 
-### FRAMEWORK EVOLUTION
+- Expert availability → Asynchronous collaboration methods
+- Communication gaps → Structured reporting protocols
+- Scope creep → Clear change management procedures
 
-This governance framework is a living document that will be reviewed and updated based on: 
-- TWG operational experience 
-- Changing technical requirements 
-- Stakeholder feedback 
-- International best practice evolution 
+### Escalation Procedures
 
- 
+- Domain level → Domain co-chair intervention
+- Cross-domain → Chief Architect mediation
+- Strategic → Escalation to Steering Committee
+
+## FRAMEWORK EVOLUTION
+
+This governance framework is a living document that will be reviewed and updated based on:
+
+- TWG operational experience
+- Changing technical requirements
+- Stakeholder feedback
+- International best practice evolution
+
 **Review Schedule:**
-- Monthly: Operational procedure adjustments 
-- Quarterly: Process effectiveness assessment 
-- Annually: Comprehensive framework review 
+
+- Monthly: Operational procedure adjustments
+- Quarterly: Process effectiveness assessment
+- Annually: Comprehensive framework review

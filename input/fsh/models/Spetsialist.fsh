@@ -1,5 +1,3 @@
-Alias: Asutus = http://helex.org/ig/health-bridge/StructureDefinition/Asutus
-
 Logical: Spetsialist
 Id: Spetsialist
 Title: "Spetsialist"
