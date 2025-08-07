@@ -24,4 +24,4 @@ The list of business components includes:
 
 The diagram below demonstrate the architectural component view:
 
-![Health Bridge Component view](images/component-view.png)
+<img src="component-view.png" alt="CCM component view" width="1024" />
