@@ -8,12 +8,12 @@
 
 # Hoolduskoordinatsiooni projekt
 
-# Care Coordination Architecture
+# Care Coordination Management IG
 
-CI-Build: https://build.fhir.org/ig/helexlab/bridge-ig
+The latest version of the Implementation guide is available in the HL7 FHIR CI-build environment: <https://build.fhir.org/ig/helexlab/ig-ccm>
 
 ## Changes and feedback
 
-Feedback and issues about this empty framework can be submitted via the [issues](/https://github.com/helexlab/bridge-ig/issues) page, and will be incorporated into subsequent releases.
+Feedback and issues about this empty framework can be submitted via the [issues](/https://github.com/helexlab/ig-ccm/issues) page, and will be incorporated into subsequent releases.
 
 The Askend development team is currently responsible for the changes.
