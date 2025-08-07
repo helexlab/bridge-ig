@@ -18,7 +18,7 @@ To guide TWG members on the modus operandi for the coordinated design, developme
 
 ### Project Lead
 
-- [Helen Linn](helen.linn@askend.com)
+- [Helen Linn](mailto:helen.linn@askend.com)
 
 ### Role and Responsibilities
 
@@ -31,7 +31,7 @@ To guide TWG members on the modus operandi for the coordinated design, developme
 
 ### Solution Architect
 
-- [Igor Bossenko](igor.bossenko@askend.com)
+- [Igor Bossenko](mailto:igor.bossenko@askend.com)
 
 #### Role and Responsibilities
 
@@ -44,10 +44,10 @@ To guide TWG members on the modus operandi for the coordinated design, developme
 
 ### Domain Experts Group
 
-- [Aneli Taal](anneli.taal@sm.ee)
-- [Julia Keedus](julia.kedus@ivkh.ee)
-- [Olga Pihlak](olga.pihlak@ivol.ee)
-- [Dmitri Kislitsin](Dmitri.Kislitsin@ivkh.ee)
+- [Aneli Taal](mailto:anneli.taal@sm.ee)
+- [Julia Keedus](mailto:julia.kedus@ivkh.ee)
+- [Olga Pihlak](mailto:olga.pihlak@ivol.ee)
+- [Dmitri Kislitsin](mailto:Dmitri.Kislitsin@ivkh.ee)
 
 #### Role and Responsibilities
 
