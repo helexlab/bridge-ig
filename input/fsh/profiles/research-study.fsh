@@ -1,6 +1,6 @@
 Profile: CcmResearchStudy
 Parent: ResearchStudy
-Id: ccm-researchstudy
+Id: CcmResearchStudy
 Title: "Ccm Research Study"
 Description: "A localized profile of ResearchStudy for use in Estonian clinical research settings."
 
